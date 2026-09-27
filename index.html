@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviving Warli Art Through Digital Media</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">REVIVING TRADITIONAL INDIAN ART</p>
+      <h1>Warli Art <span>×</span> Digital Media</h1>
+      <p class="intro">
+        Explore the transformation of a traditional Warli painting into a
+        2D digital illustration and animation.
+      </p>
+    </header>
+
+    <section class="viewer">
+      <div class="media-area">
+        <img id="imageViewer" src="assets/traditional-painting.jpg"
+             alt="Traditional Warli painting">
+        <video id="videoViewer" controls loop muted playsinline>
+          <source src="assets/warli-animation.mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+      </div>
+
+      <div class="caption">
+        <p id="stageLabel">01 — TRADITIONAL PAINTING</p>
+        <h2 id="stageTitle">Traditional Warli Painting</h2>
+        <p id="stageDescription">
+          The original traditional artwork and its visual elements.
+        </p>
+      </div>
+    </section>
+
+    <nav class="buttons" aria-label="Warli artwork stages">
+      <button class="stage-btn active" data-stage="traditional">
+        <span>01</span>
+        Traditional Painting
+      </button>
+
+      <button class="stage-btn" data-stage="illustration">
+        <span>02</span>
+        2D Illustration
+      </button>
+
+      <button class="stage-btn" data-stage="animation">
+        <span>03</span>
+        Animation
+      </button>
+    </nav>
+
+    <footer>
+      <p>Community Engagement / Research Project</p>
+      <p>Digital documentation • Illustration • Animation</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
