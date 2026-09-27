@@ -3,7 +3,7 @@ const stages = {
     label: "01 — TRADITIONAL PAINTING",
     title: "Traditional Warli Painting",
     description: "The original traditional artwork and its visual elements.",
-    image: "assets/traditional-painting.jpg",
+    image: "traditional-painting.jpg",
     type: "image"
   },
 
@@ -11,7 +11,7 @@ const stages = {
     label: "02 — 2D DIGITAL ILLUSTRATION",
     title: "2D Warli Illustration",
     description: "A digitally recreated version that preserves the visual language of Warli art.",
-    image: "assets/warli-illustration.png",
+    image: "warli-illustration.png",
     type: "image"
   },
 
@@ -19,7 +19,7 @@ const stages = {
     label: "03 — ANIMATION",
     title: "Animated Warli Artwork",
     description: "The traditional visual elements brought to life through digital animation.",
-    image: "assets/warli-animation.mp4",
+    image: "warli-animation.mp4",
     type: "video"
   }
 };
